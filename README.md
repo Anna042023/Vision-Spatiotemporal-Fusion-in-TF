@@ -1,1 +1,2 @@
 - [2025] [TKDE] Adaptive traffic forecasting on daily basis: A spatio-temporal context learning approach [[paper](https://ieeexplore.ieee.org/document/11012680)]
+- [2025] [ICCV] Self-supervised sparse sensor fusion for long range perception [[paper](https://iccv.thecvf.com/virtual/2025/poster/744)]
