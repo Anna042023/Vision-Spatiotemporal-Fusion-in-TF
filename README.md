@@ -59,5 +59,5 @@
 - [2020] [CVPR] Scalability in perception for autonomous driving: Waymo open dataset [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf)]
 
 ### Before 2020
-- [2019] [CVPR] Cityflow: A city-scale benchmark for multi-target multi-camera vehicle tracking and re-identification [paper](https://ieeexplore.ieee.org/document/8954067)]
+- [2019] [CVPR] Cityflow: A city-scale benchmark for multi-target multi-camera vehicle tracking and re-identification [[paper](https://ieeexplore.ieee.org/document/8954067)]
 - [2017] [PMLR] CARLA: An open urban driving simulator [[paper](https://proceedings.mlr.press/v78/dosovitskiy17a.html)]
