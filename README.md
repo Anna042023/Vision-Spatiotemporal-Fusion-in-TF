@@ -32,7 +32,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 
 ## Representative Methods for Vision-Spatiotemporal Alignment in Traffic Forecasting
 
-| Method | Alignment Granularity | Visual Input | S-T Input | Mechanism | Traffic Task | Key Insight |
+| Method | Alignment Granularity | Visual Input | Spatiotemporal Input | Mechanism | Traffic Task | Key Insight |
 |:------:|:--------------------:|:------------:|:---------:|:---------:|:------------:|:-----------:|
 | VisionTS [[Chen et al., 2025](https://icml.cc/virtual/2025/poster/46441)] | • (F) | Time-series image (GAF) | Traffic time series | Visual MAE pre-training | Zero-shot forecasting | Transforms signals to images; bridges vision pre-training to traffic forecasting |
 | Dual-Encoder [[Gong et al., 2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)] | • (F) | Traffic camera image | Graph traffic state | Bi-level adversarial alignment | Multi-modal forecasting | Task-aware data and refined feature alignment for domain adaptation |
@@ -41,11 +41,11 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 | Gated Fusion [[Yi et al., 2024](https://nips.cc/media/neurips-2024/Slides/97948_PJHhMuP.pdf)] | <span style="font-size:0.8em">▪</span> (T) | Visual feature sequence | Spatiotemporal graph features | Multi-dimensional spatiotemporal interaction | Multi-task forecasting | Captures cross-interactions for continuous multi-task learning |
 | Unified ViT-GNN Transformer [[Lee et al., 2022](https://link.springer.com/chapter/10.1007/978-3-031-25072-9_41)] | <span style="font-size:0.8em">▪</span> (T) | Camera image patches | Traffic graph nodes | Cross-modality attention fusion | Pedestrian detection | Explores modality-specific features for traffic perception |
 
-<sup>**Legend:** Alignment Granularity (•: Feature-level (F), ∘: Semantic-level (S), <span style="font-size:0.8em">▪</span>: Task-level (T)). S-T Input: Spatiotemporal Input</sup>
+<sup>**Legend:** Alignment Granularity (•: Feature-level (F), ∘: Semantic-level (S), <span style="font-size:0.8em">▪</span>: Task-level (T)).</sup>
 
 ## Core Multimodal Datasets for Vision-Spatiotemporal Traffic Forecasting Research
 
-| Dataset | Visual Modality | Spatiotemporal Modality | Temporal Sync. | Primary Alignment Challenge |
+| Dataset | Visual Modality | Spatiotemporal Modality | Temporal Synchronization | Primary Alignment Challenge |
 |:---------:|:----------------:|:-------------------------:|:-------------:|:----------------------------:|
 | nuScenes [[Caesar et al., 2020](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html)] | Multi-camera, 360° views | 3D object tracks, HD map elements | Yes | Large-scale geometric registration in complex intersections |
 | Waymo Open [[Sun et al., 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf)] | Multi-camera, LiDAR streams | Detailed vehicle trajectories, map data | Yes | Fine-grained spatial grounding for traffic participants |
