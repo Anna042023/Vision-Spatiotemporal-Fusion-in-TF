@@ -13,17 +13,17 @@ To address these challenges, this survey systematically restructures and prospec
 To clarify key concepts, this survey employs two schematic diagrams for explanation. **Figure 1** demonstrates the integration levels of visual and spatiotemporal information from the perspective of data alignment. **Figure 2** points out the two main semantic and geometric gaps that need to be addressed in building a traffic world model from the perspective of model construction. 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cc36d6c3-35df-42e8-bda2-c05be5f1fb3f" width="65%">
+  <img src="https://github.com/user-attachments/assets/ff750e65-b136-4cea-b1f3-17e62aeb524b" width="65%">
   <br>
   <small><b>Figure 1:</b> Levels of alignment for vision and spatiotemporal data</small>
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/980e7570-2a0b-4ad3-8e8e-1641fb4e341d" width="65%">
+  <img src="https://github.com/user-attachments/assets/73be2bdf-306c-4351-ae96-8038e9f1cd14" width="65%">
   <br>
   <small><b>Figure 2:</b> Dual pillars of a traffic world model: semantic and geometric gaps</small>
 </div>
-<br><br>
+<br>
 
 **Figure 1** illustrates the classification framework of cross-modal alignment granularity using a hierarchical structure, categorizing existing methods into three progressive stages: feature-level, semantic-level, and task-level. It visually presents the technological development path from low-level feature association to high-level task coordination. 
 
