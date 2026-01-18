@@ -79,7 +79,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2025] [SIGKDD] Tsfm-bench: A comprehensive and unified benchmark of foundation models for time series forecasting [[paper](https://arxiv.org/abs/2410.11802)]
 - [2025] [TPAMI] Out-of-distribution generalization on graphs: A survey [[paper](https://ieeexplore.ieee.org/document/11106188)]
 - [2025] [TITS] A 3d convolution-incorporated dimension preserved decomposition model for traffic data prediction [[paper](https://ieeexplore.ieee.org/abstract/document/10745874)]
-- [2025] [TKDE] Adaptive Hyper-Box Granulation With Justifiable Granularity for Feature Selection [[paper](https://ieeexplore.ieee.org/abstract/document/11192594)]
+- [2025] [TKDE] Adaptive hyper-box granulation with justifiable granularity for feature selection [[paper](https://ieeexplore.ieee.org/abstract/document/11192594)]
 
 ### 📅 2024
 - [2024] [ECCV] Towards multimodal in-context learning for vision and language models [[paper](https://link.springer.com/chapter/10.1007/978-3-031-93806-1_19)]
@@ -88,7 +88,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2024] [TITS] Unraveling urban mobility: A domain knowledge-free trajectory classification using gramian angular fields [[paper](https://ieeexplore.ieee.org/abstract/document/11258590)]
 - [2024] [NeurIPS] SeeClear: Semantic distillation enhances pixel condensation for video super-resolution [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f358b2a880adf34939d2d6f926e54d2a-Abstract-Conference.html)]
 - [2024] [NeurIPS] Get rid of isolation: A continuous multi-task spatio-temporal learning framework [[paper](https://nips.cc/media/neurips-2024/Slides/97948_PJHhMuP.pdf)]
-- [2024] [Inform. Fusion] A multi-modal spatial--temporal model for accurate motion forecasting with visual fusion [[paper](https://www.sciencedirect.com/science/article/pii/S1566253523003627)]
+- [2024] [Inform. Fusion] A multi-modal spatial-temporal model for accurate motion forecasting with visual fusion [[paper](https://www.sciencedirect.com/science/article/pii/S1566253523003627)]
 - [2024] [AAAI] Far3d: Expanding the horizon for surround-view 3d object detection [[paper](https://arxiv.org/abs/2308.09616)]
 - [2024] [TITS] Highway visibility level prediction using geometric and visual features driven dual-branch fusion network [[paper](https://ieeexplore.ieee.org/document/10440153)]
 - [2024] [ECCV] Wts: A pedestrian-centric traffic video dataset for fine-grained spatial-temporal understanding [[paper](https://link.springer.com/chapter/10.1007/978-3-031-73116-7_1)]
@@ -101,7 +101,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2023] [ICLR] Timesnet: Temporal 2d-variation modeling for general time series analysis [[paper](https://arxiv.org/abs/2210.02186)]
 - [2023] [SIGMM] Improving anomaly segmentation with multi-granularity cross-domain alignment [[paper](https://dl.acm.org/doi/10.1145/3581783.3611849)]
 - [2023] [SIGKDD] A study of situational reasoning for traffic understanding [[paper](https://dl.acm.org/doi/10.1145/3580305.3599246)]
-- [2023] [ICLR] A Time Series is Worth 64Words: Long-term Forecasting with Transformers [[paper](https://arxiv.org/abs/2211.14730)]
+- [2023] [ICLR] A time series is worth 64Words: Long-term forecasting with transformers [[paper](https://arxiv.org/abs/2211.14730)]
 
 ### 📅 2022
 - [2022] [ICCV] Bi-level alignment for cross-domain crowd counting [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)]
