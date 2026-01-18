@@ -101,7 +101,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2023] [ICLR] Timesnet: Temporal 2d-variation modeling for general time series analysis [[paper](https://arxiv.org/abs/2210.02186)]
 - [2023] [SIGMM] Improving anomaly segmentation with multi-granularity cross-domain alignment [[paper](https://dl.acm.org/doi/10.1145/3581783.3611849)]
 - [2023] [SIGKDD] A study of situational reasoning for traffic understanding [[paper](https://dl.acm.org/doi/10.1145/3580305.3599246)]
-- [2023] [ICLR] A time series is worth 64Words: Long-term forecasting with transformers [[paper](https://arxiv.org/abs/2211.14730)]
+- [2023] [ICLR] A time series is worth 64words: Long-term forecasting with transformers [[paper](https://arxiv.org/abs/2211.14730)]
 
 ### 📅 2022
 - [2022] [ICCV] Bi-level alignment for cross-domain crowd counting [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)]
