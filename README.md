@@ -55,7 +55,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 
 ## List of References
 ### 📅 2026
-- [2026] [TKDE] Unraveling spatio-temporal foundation models via the pipeline lens: A comprehensive review [[paper]([https://ieeexplore.ieee.org/document/11341909])]
+- [2026] [TKDE] Unraveling spatio-temporal foundation models via the pipeline lens: A comprehensive review [[paper](https://ieeexplore.ieee.org/document/11341909)]
 - [2026] [WWW] VisionST: Coordinating cross-modal traffic prediction with interactive geo-image encoding [[paper](https://dl.acm.org/doi/10.1145/3774904.3792447)]
 
 ### 📅 2025
