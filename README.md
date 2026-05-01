@@ -35,8 +35,8 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 | Method | Alignment Granularity | Visual Input | Spatiotemporal Input | Mechanism | Traffic Task | Key Insight |
 |:------:|:--------------------:|:------------:|:---------:|:---------:|:------------:|:-----------:|
 | VisionTS [[Chen et al., 2025](https://icml.cc/virtual/2025/poster/46441)] | • (F) | Time-series image (GAF) | Traffic time series | Visual MAE pre-training | Zero-shot forecasting | Transforms signals to images; bridges vision pre-training to traffic forecasting |
-| Dual-Encoder [[Gong et al., 2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)] | • (F) | Traffic camera image | Graph traffic state | Bi-level adversarial alignment | Multi-modal forecasting | Task-aware data and refined feature alignment for domain adaptation |
-| Semantic Extractor [[Nie et al., 2023](https://arxiv.org/abs/2211.14730)] | ∘ (S) | Traffic video | Graph node states | Pixel-to-concept parsing | Explainable event forecast | Guides reconstruction with traffic semantics (instances, events) |
+| Dual-Encoder [[Gong et al., 2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)] | • (F) | Traffic camera image | Traffic graph nodes | Bi-level adversarial alignment | Multi-modal forecasting | Task-aware data and refined feature alignment for domain adaptation |
+| Semantic Extractor [[Nie et al., 2023](https://arxiv.org/abs/2211.14730)] | ∘ (S) | Traffic video | Traffic graph nodes | Pixel-to-concept parsing | Explainable event forecast | Guides reconstruction with traffic semantics (instances, events) |
 | Scene Graph Anticipation [[Peddi et al., 2024](https://link.springer.com/chapter/10.1007/978-3-031-73223-2_10)] | ∘ (S) | Traffic scene images | Graph-structured events | Neural ODE/SDE modeling | Scene understanding | Models continuous dynamics of traffic entity interactions |
 | Gated Fusion [[Yi et al., 2024](https://nips.cc/media/neurips-2024/Slides/97948_PJHhMuP.pdf)] | <span style="font-size:0.8em">▪</span> (T) | Visual feature sequence | Spatiotemporal graph features | Multi-dimensional spatiotemporal interaction | Multi-task forecasting | Captures cross-interactions for continuous multi-task learning |
 | Unified ViT-GNN Transformer [[Lee et al., 2022](https://link.springer.com/chapter/10.1007/978-3-031-25072-9_41)] | <span style="font-size:0.8em">▪</span> (T) | Camera image patches | Traffic graph nodes | Cross-modality attention fusion | Pedestrian detection | Explores modality-specific features for traffic perception |
@@ -54,12 +54,15 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 | Time-Series Benchmarks | Generated images from traffic signals | Traffic flow/speed series | N/A | Representation conversion fidelity for traffic forecasting |
 
 ## List of References
+### 📅 2026
+- [2026] [TKDE] Unraveling spatio-temporal foundation models via the pipeline lens: A comprehensive review [[paper]([https://ieeexplore.ieee.org/document/11341909])]
+- [2026] [WWW] VisionST: Coordinating cross-modal traffic prediction with interactive geo-image encoding [[paper](https://dl.acm.org/doi/10.1145/3774904.3792447)]
+
 ### 📅 2025
 - [2025] [TKDE] Adaptive traffic forecasting on daily basis: A spatio-temporal context learning approach [[paper](https://ieeexplore.ieee.org/document/11012680)]
 - [2025] [ICCV] Self-supervised sparse sensor fusion for long range perception [[paper](https://iccv.thecvf.com/virtual/2025/poster/744)]
 - [2025] [ACM Comput. Surv.] Understanding world or predicting future? A comprehensive survey of world models [[paper](https://dl.acm.org/doi/full/10.1145/3746449)]
 - [2025] [IJCAI] Words over pixels? Rethinking vision in multimodal large language models [[paper](https://www.ijcai.org/proceedings/2025/1164)]
-- [2025] [CVPR] How to Merge your multimodal models over time? [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Dziadzio_How_to_Merge_Your_Multimodal_Models_Over_Time_CVPR_2025_paper.pdf)]
 - [2025] [Pattern Recogn.] Multimodal urban traffic flow prediction based on multi-scale time series imaging [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325001591)]
 - [2025] [IJCAI] Harnessing vision models for time series analysis: A survey [[paper](https://arxiv.org/abs/2502.08869)]
 - [2025] [IJCAI] Towards cross-modality modeling for time series analytics: A survey in the LLM era [[paper](https://arxiv.org/abs/2505.02583)]
@@ -82,7 +85,6 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2025] [TKDE] Adaptive hyper-box granulation with justifiable granularity for feature selection [[paper](https://ieeexplore.ieee.org/abstract/document/11192594)]
 
 ### 📅 2024
-- [2024] [ECCV] Towards multimodal in-context learning for vision and language models [[paper](https://link.springer.com/chapter/10.1007/978-3-031-93806-1_19)]
 - [2024] [ECCV] Towards scene graph anticipation [[paper](https://link.springer.com/chapter/10.1007/978-3-031-73223-2_10)]
 - [2024] [NeurIPS] Multimodal task vectors enable many-shot multimodal in-context learning [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/27571b74d6cd650b8eb6cf1837953ae8-Paper-Conference.pdf)]
 - [2024] [TITS] Unraveling urban mobility: A domain knowledge-free trajectory classification using gramian angular fields [[paper](https://ieeexplore.ieee.org/abstract/document/11258590)]
@@ -97,7 +99,6 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 - [2024] [NeurIPS] Evaluating the world model implicit in a generative model [[paper](https://arxiv.org/abs/2406.03689)]
 
 ### 📅 2023
-- [2023] [Artif. Intell.] AutoSTG+: An automatic framework to discover the optimal network for spatio-temporal graph prediction [[paper](https://www.sciencedirect.com/science/article/pii/S0004370223000450)]
 - [2023] [ICLR] Timesnet: Temporal 2d-variation modeling for general time series analysis [[paper](https://arxiv.org/abs/2210.02186)]
 - [2023] [SIGMM] Improving anomaly segmentation with multi-granularity cross-domain alignment [[paper](https://dl.acm.org/doi/10.1145/3581783.3611849)]
 - [2023] [SIGKDD] A study of situational reasoning for traffic understanding [[paper](https://dl.acm.org/doi/10.1145/3580305.3599246)]
