@@ -107,6 +107,7 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 ### 📅 2022
 - [2022] [ICCV] Bi-level alignment for cross-domain crowd counting [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Bi-Level_Alignment_for_Cross-Domain_Crowd_Counting_CVPR_2022_paper.pdf)]
 - [2022] [ECCV] Cross-modality attention and multimodal fusion transformer for pedestrian detection [[paper](https://link.springer.com/chapter/10.1007/978-3-031-25072-9_41)]
+- [2022] [Procedia Comput. Sci.] Carla: Car learning to act-an inside out [[paper](https://www.sciencedirect.com/science/article/pii/S1877050921025552)]
 
 ### 📅 2021
 - [2021] [ICCV] Projecting your view attentively: Monocular road scene layout estimation via cross-view transformation [[paper](https://ieeexplore.ieee.org/document/9578824)]
@@ -117,4 +118,3 @@ To clarify key concepts, this survey employs two schematic diagrams for explanat
 
 ### 📅 Before 2020
 - [2019] [CVPR] Cityflow: A city-scale benchmark for multi-target multi-camera vehicle tracking and re-identification [[paper](https://ieeexplore.ieee.org/document/8954067)]
-- [2017] [PMLR] CARLA: An open urban driving simulator [[paper](https://proceedings.mlr.press/v78/dosovitskiy17a.html)]
