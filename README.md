@@ -12,6 +12,7 @@ To address these challenges, this survey systematically restructures and prospec
 
 To clarify key concepts, this survey employs two schematic diagrams for explanation. **Figure 1** demonstrates the integration levels of visual and spatiotemporal information from the perspective of data alignment. **Figure 2** points out the two main semantic and geometric gaps that need to be addressed in building a traffic world model from the perspective of model construction. 
 
+![<small><b>Figure 1:</b> Levels of alignment for vision and spatiotemporal data</small>](fig1.png)
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ff750e65-b136-4cea-b1f3-17e62aeb524b" width="65%">
   <br>
